@@ -53,6 +53,7 @@
 
 ## add following lines to the end of "~/.profile" file
 > export PATH=/usr/local/cuda-11.7/bin${PATH:+:${PATH}}
+> 
 > export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 ## reboot the system
